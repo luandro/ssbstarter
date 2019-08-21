@@ -7,6 +7,7 @@
     "clean-android": "adb uninstall com.ssbstarter && cd android && ./gradlew clean",
     "full-clean": "npm run clean-android && npm run clean-bundler && rm -rf node_modules && rm -rf lib",
     "start": "node node_modules/react-native/local-cli/cli.js start",
+    "build": "cd cd nodejs-assets/nodejs-project && npm i --no-optional",
     "test": "jest"
   },
   "dependencies": {
