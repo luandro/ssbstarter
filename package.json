@@ -13,7 +13,7 @@
   "dependencies": {
     "nodejs-mobile-react-native": "^0.4.3",
     "react": "16.8.3",
-    "react-native": "0.59"
+    "react-native": "0.62"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
